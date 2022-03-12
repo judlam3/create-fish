@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #004aad;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* source: https://www.w3schools.com/css/css_form.asp*/
+
+input {
+  padding: 2px 20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  background-color: #aeddf8;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Helvetica";
+}
+
+h2 {
+  font-family: "Helvetica";
+}
+
+h3 {
+  font-family: "Helvetica";
+}
+
+h4 {
+  font-family: "Helvetica";
+}
+
+p {
+  font-family: "Helvetica";
+}
+
+button:hover {
+  background-color: #38b6ff;
+  color: white;
+}
+
+/* https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.inputs {
+  width: 200px;
+}
+.inputs-age {
+  width: 75px;
+  text-align: right;
+}
+.checkbox {
+  align-items: right;
+}
+.label {
+  text-align: right;
+  margin: 0px 20px 0px 5px;
+}
+.labels {
+  text-align: left;
+}
